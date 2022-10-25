@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+body{
+ background: hwb(180 63% 4%);
+}
+.container h1{
+    margin: 3px;
+    border: 2px solid gray;
+    border-radius: 50px;
+    text-align: center;
+    color: black;
+}
+body .container .main{
+    box-sizing: border-box;
+    margin-top: 2%;
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid  hwb(180 63% 4%);
+    background-color: transparent;
+    border-radius: 30px;
+    justify-content:space-between;
+    margin-right: 3px;
+    margin-left: 35%;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition:all 0.30s ease-in-out;
+    -o-transition:all 0.30s ease-in-out;
+    transition:all 0.30s ease-in-out;
+}
+.container .btn{
+    /* color: lightcoral; */
+ color: red;
+ border-color:  hwb(180 63% 4%);
+    box-sizing: border-box;
+    font-size:20px;
+    margin-top: 2px;
+    background-color:hwb(180 63% 4%);
+    transition: none;
+    box-shadow: 0 0 20px #b0e228;
+}
+.container .btn #ii{
+    color: black;
+}
+.container .sabtn{
+    color:  red;
+    border-color:  hwb(180 63% 4%);
+       box-sizing: border-box;
+       font-size:20px;
+       margin-top: 2px;
+       background-color:hwb(180 63% 4%);
+       transition: none;
+       box-shadow: 0 0 20px #b0e228;
+}
+.container .btn:hover{
+    color: blue;
+    /* background-color:conic-gradient(#fd004c,#fe9000,#fff020,#3edf4b,#3363ff,#b102b7,#fd004c);
+    color:conic-gradient(#fd004c,#fe9000,#fff020,#3edf4b,#3363ff,#b102b7,#fd004c); */
+    box-shadow: 0 0 20px #e22865;
+    border: 1px solid #e22865;
+    background-color: transparent;
+}
+.container .sabtn:hover{
+    color: #3f30c4;
+    /* background-color:conic-gradient(#fd004c,#fe9000,#fff020,#3edf4b,#3363ff,#b102b7,#fd004c);
+    color:conic-gradient(#fd004c,#fe9000,#fff020,#3edf4b,#3363ff,#b102b7,#fd004c); */
+    box-shadow: 0 0 20px #e22865;
+    border: 1px solid #3f30c4;
+    background-color: transparent;
+}
+.ravi{
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+    margin-left: 38%;
+    margin-top: 5%;
+}
+.table{
+    color: rgb(135, 158, 88);
+    font-size: 20px;
+    border: 2;
+}
